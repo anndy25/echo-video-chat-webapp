@@ -1,0 +1,31 @@
+.menu{
+    background-color: rgba(0.4,0.1,0.1,.1);
+   z-index: 1 !important;
+
+
+}
+
+
+
+.circle{
+    height: 3.5rem !important;
+}
+
+.responsive-width{
+    width:80vw
+}
+@media (min-width:576) and (max-width:996px){
+    .responsive-width{
+        width:90vw;
+    }
+    .circle{
+        height: 2rem !important;
+    }
+}
+@media (max-width:575px){
+    .responsive-width{
+        width:100vw;
+    }
+   
+
+}
