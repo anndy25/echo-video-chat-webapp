@@ -4,7 +4,7 @@ import Peer from "simple-peer"
 
 const SocketContext = createContext();
 
-const socket = io("https://video-chatapp-echo.herokuapp.com/");
+const socket = io("https://echo-video-chat.onrender.com");
 
 const ContextProvider = ({ children }) => {
   const myVideo = useRef();
